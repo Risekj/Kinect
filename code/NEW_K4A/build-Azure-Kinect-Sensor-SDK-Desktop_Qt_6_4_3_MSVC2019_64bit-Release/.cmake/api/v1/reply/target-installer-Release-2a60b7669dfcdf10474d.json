@@ -1,0 +1,117 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"extern/libjpeg-turbo/src/cmakescripts/BuildPackages.cmake",
+			"extern/libjpeg-turbo/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1388,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "turbojpeg-static::@675ee08d9f8701c8a2d2"
+		},
+		{
+			"id" : "jpeg-static::@675ee08d9f8701c8a2d2"
+		},
+		{
+			"id" : "turbojpeg::@675ee08d9f8701c8a2d2"
+		},
+		{
+			"id" : "tjbench::@675ee08d9f8701c8a2d2"
+		},
+		{
+			"id" : "cjpeg::@9f67d163517f7f81dda7"
+		},
+		{
+			"id" : "djpeg::@9f67d163517f7f81dda7"
+		},
+		{
+			"id" : "jpegtran::@9f67d163517f7f81dda7"
+		},
+		{
+			"id" : "jpeg::@9f67d163517f7f81dda7"
+		},
+		{
+			"id" : "wrjpgcom::@675ee08d9f8701c8a2d2"
+		},
+		{
+			"id" : "rdjpgcom::@675ee08d9f8701c8a2d2"
+		}
+	],
+	"id" : "installer::@675ee08d9f8701c8a2d2",
+	"name" : "installer",
+	"paths" : 
+	{
+		"build" : "extern/libjpeg-turbo/src",
+		"source" : "extern/libjpeg-turbo/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/installer.nsi",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/CMakeFiles/installer",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/CMakeFiles/installer.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

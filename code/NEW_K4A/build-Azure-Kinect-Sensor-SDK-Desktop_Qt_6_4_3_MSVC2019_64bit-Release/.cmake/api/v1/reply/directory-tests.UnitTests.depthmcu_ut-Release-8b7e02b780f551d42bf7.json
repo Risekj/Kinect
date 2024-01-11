@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tests/UnitTests/depthmcu_ut",
+		"source" : "tests/UnitTests/depthmcu_ut"
+	}
+}

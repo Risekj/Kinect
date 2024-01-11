@@ -1,0 +1,120 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/azure_c_shared/src/deps/umock-c/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/umock-c/umock_c.lib"
+			],
+			"targetId" : "umock_c::@62f3208b4a6e3230e4a2",
+			"targetIndex" : 141,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/umock_c",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umock_c.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umock_c_internal.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umock_c_negative_tests.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umock_c_prod.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockalloc.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockcall.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockcallrecorder.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypename.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes_bool.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes_c.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes_stdint.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes_charptr.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umocktypes_struct.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockcallpairs.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockstring.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umockautoignoreargs.h",
+				"extern/azure_c_shared/src/deps/umock-c/./inc/umock_c/umock_log.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "umock_cTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "umock_c::@62f3208b4a6e3230e4a2",
+					"index" : 141
+				}
+			],
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/umock-c/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/umock_cTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/umock-c/configs/umock_cFunctions.cmake",
+				"extern/azure_c_shared/src/deps/umock-c/configs/umock_cConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/extern/azure_c_shared/src/deps/umock-c/umock_c/umock_cConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/azure_c_shared/src/deps/umock-c",
+		"source" : "extern/azure_c_shared/src/deps/umock-c"
+	}
+}

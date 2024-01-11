@@ -1,0 +1,7 @@
+# CMake generated Testfile for 
+# Source directory: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/tests/Calibration
+# Build directory: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/Calibration
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/Calibration/calibration_ut[1]_include.cmake")

@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/K4A
+exec_prefix=C:/Program Files (x86)/K4A
+libdir=C:/Program Files (x86)/K4A/lib
+includedir=C:/Program Files (x86)/K4A/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.0.1
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

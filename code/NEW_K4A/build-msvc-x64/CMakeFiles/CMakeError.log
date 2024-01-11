@@ -1,0 +1,138 @@
+Performing C++ SOURCE FILE Test CXX_FLAG_CXX11 failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_f8e5c\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_f8e5c.dir\build.make /nologo -L                  CMakeFiles\cmTC_f8e5c.dir\build
+Building CXX object CMakeFiles/cmTC_f8e5c.dir/src.cxx.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_f8e5c.dir\src.cxx.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm60C3.tmp
+cl: 鍛戒护琛?warning D9002 :蹇界暐鏈煡閫夐」鈥?std=c++11鈥?src.cxx
+Linking CXX executable cmTC_f8e5c.exe
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_f8e5c.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_f8e5c.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm6131.tmp
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_f90b2\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_f90b2.dir\build.make /nologo -L                  CMakeFiles\cmTC_f90b2.dir\build
+Building C object CMakeFiles/cmTC_f90b2.dir/src.c.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_f90b2.dir\src.c.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm641E.tmp
+src.c
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory
+NMAKE : fatal error U1077: “D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_f90b2.dir\src.c.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm641E.tmp”: 返回代码“0x2”
+Stop.
+NMAKE : fatal error U1077: “D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_f90b2.dir\build.make /nologo -L                  CMakeFiles\cmTC_f90b2.dir\build”: 返回代码“0x2”
+Stop.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_80f9f\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_80f9f.dir\build.make /nologo -L                  CMakeFiles\cmTC_80f9f.dir\build
+Building C object CMakeFiles/cmTC_80f9f.dir/CheckFunctionExists.c.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_80f9f.dir\CheckFunctionExists.c.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm64E9.tmp
+CheckFunctionExists.c
+Linking C executable cmTC_80f9f.exe
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_80f9f.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_80f9f.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm6548.tmp
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_80f9f.dir\objects1.rsp /out:cmTC_80f9f.exe /implib:cmTC_80f9f.lib /pdb:E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\cmTC_80f9f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_80f9f.dir/intermediate.manifest CMakeFiles\cmTC_80f9f.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
+NMAKE : fatal error U1077: “D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_80f9f.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_80f9f.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm6548.tmp”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_80f9f.dir\build.make /nologo -L                  CMakeFiles\cmTC_80f9f.dir\build”: 返回代码“0x2”
+Stop.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_4c48c\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_4c48c.dir\build.make /nologo -L                  CMakeFiles\cmTC_4c48c.dir\build
+Building C object CMakeFiles/cmTC_4c48c.dir/CheckFunctionExists.c.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_4c48c.dir\CheckFunctionExists.c.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm6603.tmp
+CheckFunctionExists.c
+Linking C executable cmTC_4c48c.exe
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_4c48c.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_4c48c.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm6652.tmp
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_4c48c.dir\objects1.rsp /out:cmTC_4c48c.exe /implib:cmTC_4c48c.lib /pdb:E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\cmTC_4c48c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_4c48c.dir/intermediate.manifest CMakeFiles\cmTC_4c48c.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
+NMAKE : fatal error U1077: “D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_4c48c.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_4c48c.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm6652.tmp”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_4c48c.dir\build.make /nologo -L                  CMakeFiles\cmTC_4c48c.dir\build”: 返回代码“0x2”
+Stop.
+
+
+
+Looking for a ASM_NASM compiler failed with the following output:
+-- The ASM_NASM compiler identification is unknown
+-- Didn't find assembler
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_ASM_NASM_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "ASM_NASM" or the CMake cache entry CMAKE_ASM_NASM_COMPILER to the
+  full path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/extern/libjpeg-turbo/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeOutput.log".
+See also "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/extern/libjpeg-turbo/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeError.log".
+
+Determining if the function jack_set_port_rename_callback exists in the jack failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_098bf\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_098bf.dir\build.make /nologo -L                  CMakeFiles\cmTC_098bf.dir\build
+Building C object CMakeFiles/cmTC_098bf.dir/CheckFunctionExists.c.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_098bf.dir\CheckFunctionExists.c.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm7891.tmp
+CheckFunctionExists.c
+Linking C executable cmTC_098bf.exe
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_098bf.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_098bf.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm78E0.tmp
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_098bf.dir\objects1.rsp /out:cmTC_098bf.exe /implib:cmTC_098bf.lib /pdb:E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\cmTC_098bf.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console -LIBPATH:E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\JACK_LIBRARY-NOTFOUND jack.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_098bf.dir/intermediate.manifest CMakeFiles\cmTC_098bf.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“jack.lib”
+NMAKE : fatal error U1077: “D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_098bf.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_098bf.dir\objects1.rsp @C:\Users\PKJ\AppData\Local\Temp\nm78E0.tmp”: 返回代码“0xffffffff”
+Stop.
+NMAKE : fatal error U1077: “D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_098bf.dir\build.make /nologo -L                  CMakeFiles\cmTC_098bf.dir\build”: 返回代码“0x2”
+Stop.
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_70e59\fast && 	D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_70e59.dir\build.make /nologo -L                  CMakeFiles\cmTC_70e59.dir\build
+Building CXX object CMakeFiles/cmTC_70e59.dir/src.cxx.obj
+	D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_70e59.dir\src.cxx.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm813B.tmp
+src.cxx
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: 鈥淿_deprecated__鈥? 鏈０鏄庣殑鏍囪瘑绗?E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(1): error C2062: 鎰忓鐨勭被鍨嬧€渋nt鈥?
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰)
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?)
+E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp\src.cxx(2): error C3861: 鈥渟omefunc鈥? 鎵句笉鍒版爣璇嗙
+NMAKE : fatal error U1077: “D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_70e59.dir\src.cxx.obj.d --working-dir=E:\NEW_K4A\Azure-Kinect-Sensor-SDK\build-msvc-x64\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe @C:\Users\PKJ\AppData\Local\Temp\nm813B.tmp”: 返回代码“0x2”
+Stop.
+NMAKE : fatal error U1077: “D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_70e59.dir\build.make /nologo -L                  CMakeFiles\cmTC_70e59.dir\build”: 返回代码“0x2”
+Stop.
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

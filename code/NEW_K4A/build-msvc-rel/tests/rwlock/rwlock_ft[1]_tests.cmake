@@ -1,0 +1,5 @@
+add_test([=[rwlock_ft.rwlock_init]=]  E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/bin/rwlock_ft.exe [==[--gtest_filter=rwlock_ft.rwlock_init]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-rwlock_ft.xml]==])
+set_tests_properties([=[rwlock_ft.rwlock_init]=]  PROPERTIES WORKING_DIRECTORY E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/bin/. SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] LABELS functional ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+add_test([=[rwlock_ft.rwlock_threaded_test]=]  E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/bin/rwlock_ft.exe [==[--gtest_filter=rwlock_ft.rwlock_threaded_test]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-rwlock_ft.xml]==])
+set_tests_properties([=[rwlock_ft.rwlock_threaded_test]=]  PROPERTIES WORKING_DIRECTORY E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/bin/. SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] LABELS functional ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+set(  rwlock_ft_TESTS rwlock_ft.rwlock_init rwlock_ft.rwlock_threaded_test)

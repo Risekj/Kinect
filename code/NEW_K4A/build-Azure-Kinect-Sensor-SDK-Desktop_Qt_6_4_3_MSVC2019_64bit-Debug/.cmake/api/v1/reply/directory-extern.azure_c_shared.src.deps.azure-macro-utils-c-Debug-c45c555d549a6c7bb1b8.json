@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/azure_c_shared/src/deps/azure-macro-utils-c/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/azure_macro_utils",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/azure-macro-utils-c/inc/azure_macro_utils/macro_utils.h",
+				"extern/azure_c_shared/src/deps/azure-macro-utils-c/inc/azure_macro_utils/macro_utils_generated.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "azure_macro_utils_cTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "azure_macro_utils_c::@0d44cfe36f5182ba2d0e",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/azure-macro-utils-c/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/azure_macro_utils_cTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/deps/azure-macro-utils-c/configs/azure_macro_utils_cConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/extern/azure_c_shared/src/deps/azure-macro-utils-c/azure_macro_utils_c/azure_macro_utils_cConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/azure_c_shared/src/deps/azure-macro-utils-c",
+		"source" : "extern/azure_c_shared/src/deps/azure-macro-utils-c"
+	}
+}

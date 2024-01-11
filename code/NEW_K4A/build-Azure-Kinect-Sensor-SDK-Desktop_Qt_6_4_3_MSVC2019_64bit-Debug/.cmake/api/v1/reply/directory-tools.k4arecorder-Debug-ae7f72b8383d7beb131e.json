@@ -1,0 +1,62 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/k4arecorder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "tools",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/k4arecorder.exe"
+			],
+			"targetId" : "k4arecorder::@a894658dc7052d75dc24",
+			"targetIndex" : 106,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "tools",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/bin/k4arecorder.pdb"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/k4arecorder",
+		"source" : "tools/k4arecorder"
+	}
+}

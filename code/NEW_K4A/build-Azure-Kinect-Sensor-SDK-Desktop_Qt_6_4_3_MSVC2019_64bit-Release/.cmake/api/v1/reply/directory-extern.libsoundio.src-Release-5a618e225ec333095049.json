@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libsoundio/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libsoundio/src/soundio.lib"
+			],
+			"targetId" : "libsoundio_shared::@f67d2d92c5f27811bf30",
+			"targetIndex" : 109,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/soundio.dll"
+			],
+			"targetId" : "libsoundio_shared::@f67d2d92c5f27811bf30",
+			"targetIndex" : 109,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libsoundio/src/libsoundio_static.lib"
+			],
+			"targetId" : "libsoundio_static::@f67d2d92c5f27811bf30",
+			"targetIndex" : 110,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/soundio",
+			"paths" : 
+			[
+				"extern/libsoundio/src/soundio/soundio.h",
+				"extern/libsoundio/src/soundio/endian.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libsoundio/src",
+		"source" : "extern/libsoundio/src"
+	}
+}

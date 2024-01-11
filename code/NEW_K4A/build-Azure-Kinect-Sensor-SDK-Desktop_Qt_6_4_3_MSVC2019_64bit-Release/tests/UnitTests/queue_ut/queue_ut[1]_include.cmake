@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/tests/UnitTests/queue_ut/queue_ut[1]_tests.cmake")
+  include("E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/tests/UnitTests/queue_ut/queue_ut[1]_tests.cmake")
+else()
+  add_test(queue_ut_NOT_BUILT queue_ut_NOT_BUILT)
+endif()

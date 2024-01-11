@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/K4A
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name:        libebml
+Description: Library for parsing EBML data structures
+Version:     1.3.6
+Libs:        -L${libdir} -lebml
+Cflags:      -I${includedir}

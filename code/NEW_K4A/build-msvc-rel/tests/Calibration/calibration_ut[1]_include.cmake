@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/Calibration/calibration_ut[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/Calibration/calibration_ut[1]_tests.cmake")
+else()
+  add_test(calibration_ut_NOT_BUILT calibration_ut_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/tests/FirmwareTests/firmware_fw[1]_tests.cmake")
+  include("E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/tests/FirmwareTests/firmware_fw[1]_tests.cmake")
+else()
+  add_test(firmware_fw_NOT_BUILT firmware_fw_NOT_BUILT)
+endif()

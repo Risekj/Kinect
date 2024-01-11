@@ -1,0 +1,162 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/azure_c_shared/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 686,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 692,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 708,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 715,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/aziotsharedutil.lib"
+			],
+			"targetId" : "aziotsharedutil::@2790e803e799cc10bdfc",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/azureiot/azure_c_shared_utility",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/agenttime.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/azure_base32.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/azure_base64.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/buffer_.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/constbuffer_array.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/constbuffer_array_batcher.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/connection_string_parser.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/crt_abstractions.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/constmap.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/condition.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/const_defines.h",
+				"extern/azure_c_shared/src/inc/azure_c_shared_utility/consolelogger.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/doublylinkedlist.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/envvariable.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/gballoc.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/gbnetwork.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/gb_stdio.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/gb_time.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/gb_rand.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/hmac.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/hmacsha256.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/http_proxy_io.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/singlylinkedlist.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/lock.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/map.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/optimize_size.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/platform.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/refcount.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/sastoken.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/sha-private.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/shared_util_options.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/sha.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/socketio.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/srw_lock.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/stdint_ce6.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/strings.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/strings_types.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/string_token.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/string_tokenizer.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/string_tokenizer_types.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/string_utils.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/tlsio_options.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/tickcounter.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/threadapi.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/xio.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/uniqueid.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/uuid.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/urlencode.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/vector.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/vector_types.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/vector_types_internal.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/xlogging.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/constbuffer.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/tlsio.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/optionhandler.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/memory_data.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/tlsio_schannel.h",
+				"extern/azure_c_shared/src/./inc/azure_c_shared_utility/x509_schannel.h",
+				"extern/azure_c_shared/src/./pal/windows/refcount_os.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "aziotsharedutilTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "aziotsharedutil::@2790e803e799cc10bdfc",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/azure_c_shared_utilityTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/azure_c_shared/src/configs/azure_c_shared_utilityConfig.cmake",
+				"extern/azure_c_shared/src/configs/azure_c_shared_utilityFunctions.cmake",
+				"extern/azure_c_shared/src/configs/azure_iot_build_rules.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/extern/azure_c_shared/src/azure_c_shared_utility/azure_c_shared_utilityConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/azure_c_shared/src",
+		"source" : "extern/azure_c_shared/src"
+	}
+}

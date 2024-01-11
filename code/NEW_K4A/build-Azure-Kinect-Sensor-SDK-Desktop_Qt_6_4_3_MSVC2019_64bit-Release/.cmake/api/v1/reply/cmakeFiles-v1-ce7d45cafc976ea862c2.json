@@ -1,0 +1,2326 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/DefaultBuildType.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"path" : "cmake/GitCommands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/K4AProjectVersion.cmake"
+		},
+		{
+			"path" : "cmake/MSVCLinkerFlags.cmake"
+		},
+		{
+			"path" : "cmake/k4aCompilerFlags.cmake"
+		},
+		{
+			"path" : "cmake/DetermineTargetArch.cmake"
+		},
+		{
+			"path" : "k4a.props.in"
+		},
+		{
+			"path" : "StubGenerator.xml.in"
+		},
+		{
+			"path" : "VersionInfo.cs.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "extern/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/configs/azure_iot_build_rules.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/configs/azure_c_shared_utilityFunctions.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/dependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/configs/azure_c_shared_utilityConfig.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/deps/azure-macro-utils-c/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/deps/azure-macro-utils-c/configs/azure_macro_utils_cConfig.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/deps/umock-c/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/deps/umock-c/configs/umock_cFunctions.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/azure_c_shared/src/deps/umock-c/configs/umock_cConfig.cmake"
+		},
+		{
+			"path" : "extern/cjson/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/glfw/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/glfw/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/glfw/src/CMake/modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "extern/glfw/src/src/glfw3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/glfw/src/src/glfw_config.h.in"
+		},
+		{
+			"path" : "extern/glfw/src/src/glfw3.pc.in"
+		},
+		{
+			"path" : "extern/glfw/src/src/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/googletest/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/googletest/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/googletest/src/googlemock/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/googletest/src/googletest/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"path" : "extern/googletest/src/googletest/cmake/internal_utils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/imgui/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libebml/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libebml/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"path" : "extern/libebml/src/libebml.pc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLanguage.cmake"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/cmakescripts/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CheckTypeSize/SIZE_T.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CheckIncludeFiles/HAVE_INTRIN_H.c"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/win/jconfig.h.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/jconfigint.h.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/tjbenchtest.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/tjexampletest.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/cmakescripts/BuildPackages.cmake"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/release/installer.nsi.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/release/maketarball.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/release/libjpeg.pc.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/release/libturbojpeg.pc.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/cmakescripts/cmake_uninstall.cmake.in"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/sharedlib/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libjpeg-turbo/src/md5/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libmatroska/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libmatroska/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"path" : "extern/libmatroska/EbmlConfigVersion.cmake"
+		},
+		{
+			"path" : "extern/libmatroska/EbmlConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/libmatroska/src/libmatroska.pc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/libsoundio/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libsoundio/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libsoundio/src/cmake/FindJACK.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libsoundio/src/cmake/FindPulseAudio.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindALSA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libsoundio/src/cmake/FindCoreAudio.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libsoundio/src/cmake/FindWASAPI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libsoundio/src/src/config.h.in"
+		},
+		{
+			"path" : "extern/libsoundio/src/doc/doxygen.conf.in"
+		},
+		{
+			"path" : "extern/libyuv/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/libyuv/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libyuv/src/CM_linux_packages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "extern/libuvc/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/spdlog/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/spdlog/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/spdlog/src/cmake/spdlog.pc.in"
+		},
+		{
+			"path" : "extern/spdlog/src/tests/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/libusb/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/FindOpenCV.cmake"
+		},
+		{
+			"path" : "examples/calibration/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/enumerate/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/playback_external_sync/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/k4arecord_custom_track/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/fastpointcloud/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/streaming/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/transformation/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/undistort/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/viewer/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/viewer/opengl/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/allocator/CMakeLists.txt"
+		},
+		{
+			"path" : "src/calibration/CMakeLists.txt"
+		},
+		{
+			"path" : "src/capturesync/CMakeLists.txt"
+		},
+		{
+			"path" : "src/color/CMakeLists.txt"
+		},
+		{
+			"path" : "src/color_mcu/CMakeLists.txt"
+		},
+		{
+			"path" : "src/depth/CMakeLists.txt"
+		},
+		{
+			"path" : "src/depth_mcu/CMakeLists.txt"
+		},
+		{
+			"path" : "src/deloader/CMakeLists.txt"
+		},
+		{
+			"path" : "src/dewrapper/CMakeLists.txt"
+		},
+		{
+			"path" : "src/dynlib/CMakeLists.txt"
+		},
+		{
+			"path" : "src/firmware/CMakeLists.txt"
+		},
+		{
+			"path" : "src/global/CMakeLists.txt"
+		},
+		{
+			"path" : "src/image/CMakeLists.txt"
+		},
+		{
+			"path" : "src/imu/CMakeLists.txt"
+		},
+		{
+			"path" : "src/logging/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/CMakeLists.txt"
+		},
+		{
+			"path" : "src/queue/CMakeLists.txt"
+		},
+		{
+			"path" : "src/record/CMakeLists.txt"
+		},
+		{
+			"path" : "src/record/sdk/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/exportheader.cmake.in"
+		},
+		{
+			"path" : "version.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/k4arecordConfig.cmake.in"
+		},
+		{
+			"path" : "src/record/internal/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rwlock/CMakeLists.txt"
+		},
+		{
+			"path" : "src/sdk/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/exportheader.cmake.in"
+		},
+		{
+			"path" : "include/k4a/k4aversion.h.in"
+		},
+		{
+			"path" : "version.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/k4aConfig.cmake.in"
+		},
+		{
+			"path" : "src/tewrapper/CMakeLists.txt"
+		},
+		{
+			"path" : "src/transformation/CMakeLists.txt"
+		},
+		{
+			"path" : "src/usbcommand/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "tests/Calibration/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/CaptureSync/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/ColorTests/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "tests/ColorTests/FunctionalTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/ColorTests/UnitTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/DepthTests/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "tests/DepthTests/FunctionalTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/DepthTests/UnitTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/executables/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "cmake/FindOpenCV.cmake"
+		},
+		{
+			"path" : "tests/ExternLibraries/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/ExternLibraries/azure_c_shared/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/FirmwareTests/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/global/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/latency/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/logging/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/IMUTests/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "tests/IMUTests/FunctionalTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/IMUTests/UnitTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/multidevice/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/projections/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/projections/cpp/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/RecordTests/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/k4aTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "tests/RecordTests/FunctionalTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/RecordTests/UnitTest/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/rwlock/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/example/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/TestUtil/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/Transformation/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/throughput/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/allocator_ut/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/depthmcu_ut/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/dynlib_ut/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/exportheader.cmake.in"
+		},
+		{
+			"path" : "tests/UnitTests/handle_ut/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/queue_ut/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/UnitTests/utcommon/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/Utilities/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/Utilities/ConnEx/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/deversion/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/k4aviewer/CMakeLists.txt"
+		},
+		{
+			"path" : "version.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "tools/k4afastcapture_streaming/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "tools/k4afastcapture_trigger/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "tools/k4arecorder/CMakeLists.txt"
+		},
+		{
+			"path" : "version.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "tools/updater/CMakeLists.txt"
+		},
+		{
+			"path" : "version.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Software_installation/QT/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release",
+		"source" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

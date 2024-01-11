@@ -1,0 +1,2 @@
+latency_perf.exe
+throughput_perf.exe

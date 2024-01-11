@@ -1,0 +1,16 @@
+calibration_ut.exe
+capturesync_ut.exe
+color_ut.exe
+depth_ut.exe
+azure_c_shared_test.exe
+logging_ut.exe
+imu_ut.exe
+record_ut.exe
+playback_ut.exe
+custom_track_ut.exe
+transformation_ut.exe
+allocator_ut.exe
+depthmcu_ut.exe
+dynlib_ut.exe
+handle_ut.exe
+queue_ut.exe

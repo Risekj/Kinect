@@ -1,0 +1,176 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.37.32825.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.37.32825.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_f8cde && [1/2] Building C object CMakeFiles\cmTC_f8cde.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_f8cde.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_98200 && [1/2] Building CXX object CMakeFiles\cmTC_98200.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_98200.exe
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_dbcaa && [1/2] Building C object CMakeFiles\cmTC_dbcaa.dir\HAVE_STDINT_H.c.obj
+[2/2] Linking C executable cmTC_dbcaa.exe
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_6ac3e && [1/2] Building C object CMakeFiles\cmTC_6ac3e.dir\HAVE_STDBOOL_H.c.obj
+[2/2] Linking C executable cmTC_6ac3e.exe
+
+
+
+Determining if the _M_AMD64 exist passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_8e810 && [1/2] Building C object CMakeFiles\cmTC_8e810.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_8e810.exe
+
+
+File E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _M_AMD64
+  return ((int*)(&_M_AMD64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file winapifamily.h exists passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_1b2e5 && [1/2] Building C object CMakeFiles\cmTC_1b2e5.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_1b2e5.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_57049 && [1/2] Building C object CMakeFiles\cmTC_57049.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_57049.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_789b9 && [1/2] Building C object CMakeFiles\cmTC_789b9.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_789b9.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_c2595 && [1/2] Building C object CMakeFiles\cmTC_c2595.dir\SIZE_T.c.obj
+[2/2] Linking C executable cmTC_c2595.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_e748a && [1/2] Building C object CMakeFiles\cmTC_e748a.dir\UNSIGNED_LONG.c.obj
+[2/2] Linking C executable cmTC_e748a.exe
+
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_7669b && [1/2] Building C object CMakeFiles\cmTC_7669b.dir\HAVE_INTRIN_H.c.obj
+[2/2] Linking C executable cmTC_7669b.exe
+
+
+
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_80d4e && [1/2] Building C object CMakeFiles\cmTC_80d4e.dir\src.c.obj
+[2/2] Linking C executable cmTC_80d4e.exe
+
+
+Source file was:
+__forceinline static int foo(void) { return 0; } int main(void) { return foo(); }
+Determining if the include file audioclient.h exists passed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_dab01 && [1/2] Building C object CMakeFiles\cmTC_dab01.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_dab01.exe
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED succeeded with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_412e0 && [1/2] Building CXX object CMakeFiles\cmTC_412e0.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_412e0.exe
+
+
+Source file was:
+__declspec(deprecated) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/tests/latency/latency_perf[1]_tests.cmake")
+  include("E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/tests/latency/latency_perf[1]_tests.cmake")
+else()
+  add_test(latency_perf_NOT_BUILT latency_perf_NOT_BUILT)
+endif()

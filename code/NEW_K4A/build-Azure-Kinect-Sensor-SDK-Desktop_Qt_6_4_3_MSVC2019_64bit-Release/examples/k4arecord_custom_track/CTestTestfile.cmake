@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: E:/NEW_K4A/Azure-Kinect-Sensor-SDK/examples/k4arecord_custom_track
+# Build directory: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/examples/k4arecord_custom_track
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

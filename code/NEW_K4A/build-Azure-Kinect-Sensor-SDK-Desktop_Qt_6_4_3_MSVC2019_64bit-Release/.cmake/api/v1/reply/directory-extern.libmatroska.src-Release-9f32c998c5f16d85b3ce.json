@@ -1,0 +1,161 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libmatroska/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libmatroska/src/matroska.lib"
+			],
+			"targetId" : "matroska::@bd3cd95609e8f996960d",
+			"targetIndex" : 112,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/matroska",
+			"paths" : 
+			[
+				"extern/libmatroska/src/matroska/FileKax.h",
+				"extern/libmatroska/src/matroska/KaxAttached.h",
+				"extern/libmatroska/src/matroska/KaxAttachments.h",
+				"extern/libmatroska/src/matroska/KaxBlockData.h",
+				"extern/libmatroska/src/matroska/KaxBlock.h",
+				"extern/libmatroska/src/matroska/KaxChapters.h",
+				"extern/libmatroska/src/matroska/KaxClusterData.h",
+				"extern/libmatroska/src/matroska/KaxCluster.h",
+				"extern/libmatroska/src/matroska/KaxConfig.h",
+				"extern/libmatroska/src/matroska/KaxContentEncoding.h",
+				"extern/libmatroska/src/matroska/KaxContexts.h",
+				"extern/libmatroska/src/matroska/KaxCuesData.h",
+				"extern/libmatroska/src/matroska/KaxCues.h",
+				"extern/libmatroska/src/matroska/KaxDefines.h",
+				"extern/libmatroska/src/matroska/KaxInfoData.h",
+				"extern/libmatroska/src/matroska/KaxInfo.h",
+				"extern/libmatroska/src/matroska/KaxSeekHead.h",
+				"extern/libmatroska/src/matroska/KaxSegment.h",
+				"extern/libmatroska/src/matroska/KaxSemantic.h",
+				"extern/libmatroska/src/matroska/KaxTag.h",
+				"extern/libmatroska/src/matroska/KaxTags.h",
+				"extern/libmatroska/src/matroska/KaxTrackAudio.h",
+				"extern/libmatroska/src/matroska/KaxTrackEntryData.h",
+				"extern/libmatroska/src/matroska/KaxTracks.h",
+				"extern/libmatroska/src/matroska/KaxTrackVideo.h",
+				"extern/libmatroska/src/matroska/KaxTypes.h",
+				"extern/libmatroska/src/matroska/KaxVersion.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/matroska/c",
+			"paths" : 
+			[
+				"extern/libmatroska/src/matroska/c/libmatroska.h",
+				"extern/libmatroska/src/matroska/c/libmatroska_t.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libmatroska/src/libmatroska.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "MatroskaTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "matroska::@bd3cd95609e8f996960d",
+					"index" : 112
+				}
+			],
+			"paths" : 
+			[
+				"extern/libmatroska/src/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/MatroskaTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/libmatroska/src/MatroskaConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libmatroska/src/MatroskaConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libmatroska/src",
+		"source" : "extern/libmatroska/src"
+	}
+}

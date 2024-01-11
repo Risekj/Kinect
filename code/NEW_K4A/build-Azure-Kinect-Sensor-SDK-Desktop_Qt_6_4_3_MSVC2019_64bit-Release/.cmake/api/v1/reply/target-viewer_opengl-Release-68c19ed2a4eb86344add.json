@@ -1,0 +1,252 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/viewer_opengl.exe"
+		},
+		{
+			"path" : "bin/viewer_opengl.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"examples/viewer/opengl/CMakeLists.txt",
+			"cmake/k4aCompilerFlags.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 110,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /ZH:SHA_256 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4200"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/WX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/examples/viewer/opengl/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/glfw/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/imgui/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/imgui/src/examples"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/imgui/src/examples/libs/gl3w"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/imgui/src/examples/libs/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@edd9b6f872898863626d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@585051bfad45d3748f65"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "k4a::@62dec1a11ee4a48508e1"
+		}
+	],
+	"id" : "viewer_opengl::@9619167c5b2ea6c07faa",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /ZH:SHA_256 /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\sdk\\k4a.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\glfw\\src\\src\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\imgui\\imgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "viewer_opengl",
+	"nameOnDisk" : "viewer_opengl.exe",
+	"paths" : 
+	{
+		"build" : "examples/viewer/opengl",
+		"source" : "examples/viewer/opengl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/viewer/opengl/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/viewer/opengl/texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/viewer/opengl/viewerwindow.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

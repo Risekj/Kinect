@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/src/sdk/version.rc
+windows.h
+-
+

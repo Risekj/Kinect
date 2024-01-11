@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/rwlock/rwlock_ft[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/rwlock/rwlock_ft[1]_tests.cmake")
+else()
+  add_test(rwlock_ft_NOT_BUILT rwlock_ft_NOT_BUILT)
+endif()

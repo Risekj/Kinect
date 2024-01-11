@@ -1,0 +1,3 @@
+add_test([=[azure_c_shared_threading.ThreadAPI]=]  E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/bin/azure_c_shared_test.exe [==[--gtest_filter=azure_c_shared_threading.ThreadAPI]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-azure_c_shared_test.xml]==])
+set_tests_properties([=[azure_c_shared_threading.ThreadAPI]=]  PROPERTIES WORKING_DIRECTORY E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/bin/. SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] LABELS unit ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+set(  azure_c_shared_test_TESTS azure_c_shared_threading.ThreadAPI)

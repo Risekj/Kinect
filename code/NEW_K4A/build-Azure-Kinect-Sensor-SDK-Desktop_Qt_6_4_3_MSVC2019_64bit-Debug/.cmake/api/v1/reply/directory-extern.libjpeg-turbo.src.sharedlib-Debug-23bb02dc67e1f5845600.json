@@ -1,0 +1,94 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libjpeg-turbo/src/sharedlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/jpeg.lib"
+			],
+			"targetId" : "jpeg::@9f67d163517f7f81dda7",
+			"targetIndex" : 74,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/jpeg62.dll"
+			],
+			"targetId" : "jpeg::@9f67d163517f7f81dda7",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/cjpeg.exe"
+			],
+			"targetId" : "cjpeg::@9f67d163517f7f81dda7",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/djpeg.exe"
+			],
+			"targetId" : "djpeg::@9f67d163517f7f81dda7",
+			"targetIndex" : 50,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/jpegtran.exe"
+			],
+			"targetId" : "jpegtran::@9f67d163517f7f81dda7",
+			"targetIndex" : 76,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libjpeg-turbo/src/sharedlib",
+		"source" : "extern/libjpeg-turbo/src/sharedlib"
+	}
+}

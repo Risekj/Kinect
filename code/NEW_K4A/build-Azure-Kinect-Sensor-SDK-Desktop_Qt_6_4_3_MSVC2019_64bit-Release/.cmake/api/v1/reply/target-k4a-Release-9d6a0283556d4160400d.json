@@ -1,0 +1,717 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/k4a.dll"
+		},
+		{
+			"path" : "src/sdk/k4a.lib"
+		},
+		{
+			"path" : "bin/k4a.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/sdk/CMakeLists.txt",
+			"src/color/CMakeLists.txt",
+			"src/calibration/CMakeLists.txt",
+			"src/color_mcu/CMakeLists.txt",
+			"src/usbcommand/CMakeLists.txt",
+			"src/transformation/CMakeLists.txt",
+			"src/dewrapper/CMakeLists.txt",
+			"src/deloader/CMakeLists.txt",
+			"src/allocator/CMakeLists.txt",
+			"extern/azure_c_shared/src/CMakeLists.txt",
+			"src/logging/CMakeLists.txt",
+			"src/dynlib/CMakeLists.txt",
+			"cmake/k4aCompilerFlags.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 14,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 13,
+				"parent" : 12
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 12,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 12,
+				"parent" : 16
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 13,
+				"parent" : 18
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 610,
+				"parent" : 20
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 13,
+				"parent" : 22
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 110,
+				"parent" : 26
+			},
+			{
+				"file" : 12,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 51,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 52,
+				"parent" : 28
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /ZH:SHA_256 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "/wd4200"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "/WX"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "k4a_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 31,
+					"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/src/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/pal/windows"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/azure-macro-utils-c/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/umock-c/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/spdlog/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/cjson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/libusb/src/libusb"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "k4a_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 31,
+					"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/src/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/pal/windows"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/azure-macro-utils-c/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/umock-c/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/spdlog/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/cjson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/libusb/src/libusb"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "aziotsharedutil::@2790e803e799cc10bdfc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "cJSON::@fa750d4c61c772bdd2bf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "LibUSB::@b6c29b920b09b985c64a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_color::@14190c24b57283042844"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_color_mcu::@0bc69766b54f48e7d0d2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_dewrapper::@cecdfb9a6062a5b7e5b6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_depth_mcu::@7c12f76939189f5577fe"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_depth::@c26acf3186322f654cc4"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_deloader::@d0e29d5913e9b7418b15"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_dynlib::@b74ea0edc85bc8b7c926"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_allocator::@38deef415a4ccd2e572c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_calibration::@1e32fe08d28c36fb7f93"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_capturesync::@dff38c7599dfe36d77cf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_global::@ed15893da2232e6a601b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_logging::@48bfaf6ebac2073e8858"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_imu::@4c7ce5962b9c9b05fefe"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_queue::@5144d3adcc02e50a95b1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_math::@c3aed6c50cc997bcdd53"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_rwlock::@37ba5f3ec714e26292a0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_tewrapper::@d47af1bda97c95807273"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_transformation::@52dee694f8448f40b444"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "k4a_usb_cmd::@06035173d5bd6f5632d6"
+		}
+	],
+	"id" : "k4a::@62dec1a11ee4a48508e1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/K4A"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\allocator\\k4a_allocator.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\calibration\\k4a_calibration.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\capturesync\\k4a_capturesync.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\color\\k4a_color.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\color_mcu\\k4a_color_mcu.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\depth\\k4a_depth.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\dewrapper\\k4a_dewrapper.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\depth_mcu\\k4a_depth_mcu.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\image\\k4a_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\imu\\k4a_imu.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\logging\\k4a_logging.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\queue\\k4a_queue.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\transformation\\k4a_transformation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "mf.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "mfplat.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "mfreadwrite.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "mfuuid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "cfgmgr32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\calibration\\k4a_calibration.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "extern\\cjson\\cJSON.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "src\\usbcommand\\k4a_usb_cmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "extern\\libusb\\LibUSB.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "src\\math\\k4a_math.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "src\\tewrapper\\k4a_tewrapper.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "src\\deloader\\k4a_deloader.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "src\\dynlib\\k4a_dynlib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\allocator\\k4a_allocator.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\image\\k4a_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\allocator\\k4a_allocator.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\image\\k4a_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\logging\\k4a_logging.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "extern\\azure_c_shared\\src\\aziotsharedutil.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "secur32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "ncrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "src\\rwlock\\k4a_rwlock.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "src\\global\\k4a_global.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "pathcch.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "k4a",
+	"nameOnDisk" : "k4a.dll",
+	"paths" : 
+	{
+		"build" : "src/sdk",
+		"source" : "src/sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sdk/k4a.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sdk/dll_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/version.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

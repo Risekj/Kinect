@@ -1,0 +1,9 @@
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/yvals_core.h
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/iosfwd
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/xiosbase
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/xerrc.h
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/string
+E:/NEW_K4A/Azure-Kinect-Sensor-SDK/include/k4a/k4atypes.h
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/vcruntime_startup.h
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/tuple
+D:/Software_installation/visualstudio2022/community/VC/Tools/MSVC/14.37.32822/include/xtree

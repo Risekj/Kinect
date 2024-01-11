@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tests/ExternLibraries/azure_c_shared",
+		"source" : "tests/ExternLibraries/azure_c_shared"
+	}
+}

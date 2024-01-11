@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/executables/executables_ft_custom[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-rel/tests/executables/executables_ft_custom[1]_tests.cmake")
+else()
+  add_test(executables_ft_custom_NOT_BUILT executables_ft_custom_NOT_BUILT)
+endif()

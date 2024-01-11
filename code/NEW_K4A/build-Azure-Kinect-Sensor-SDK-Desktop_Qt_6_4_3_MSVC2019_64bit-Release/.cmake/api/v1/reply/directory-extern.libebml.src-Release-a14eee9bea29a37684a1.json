@@ -1,0 +1,161 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libebml/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libebml/src/ebml.lib"
+			],
+			"targetId" : "ebml::@89f156f7eb51027e3c2d",
+			"targetIndex" : 54,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/ebml",
+			"paths" : 
+			[
+				"extern/libebml/src/ebml/Debug.h",
+				"extern/libebml/src/ebml/EbmlBinary.h",
+				"extern/libebml/src/ebml/EbmlConfig.h",
+				"extern/libebml/src/ebml/EbmlContexts.h",
+				"extern/libebml/src/ebml/EbmlCrc32.h",
+				"extern/libebml/src/ebml/EbmlDate.h",
+				"extern/libebml/src/ebml/EbmlDummy.h",
+				"extern/libebml/src/ebml/EbmlElement.h",
+				"extern/libebml/src/ebml/EbmlEndian.h",
+				"extern/libebml/src/ebml/EbmlFloat.h",
+				"extern/libebml/src/ebml/EbmlHead.h",
+				"extern/libebml/src/ebml/EbmlId.h",
+				"extern/libebml/src/ebml/EbmlMaster.h",
+				"extern/libebml/src/ebml/EbmlSInteger.h",
+				"extern/libebml/src/ebml/EbmlStream.h",
+				"extern/libebml/src/ebml/EbmlString.h",
+				"extern/libebml/src/ebml/EbmlSubHead.h",
+				"extern/libebml/src/ebml/EbmlTypes.h",
+				"extern/libebml/src/ebml/EbmlUInteger.h",
+				"extern/libebml/src/ebml/EbmlUnicodeString.h",
+				"extern/libebml/src/ebml/EbmlVersion.h",
+				"extern/libebml/src/ebml/EbmlVoid.h",
+				"extern/libebml/src/ebml/IOCallback.h",
+				"extern/libebml/src/ebml/MemIOCallback.h",
+				"extern/libebml/src/ebml/MemReadIOCallback.h",
+				"extern/libebml/src/ebml/SafeReadIOCallback.h",
+				"extern/libebml/src/ebml/StdIOCallback.h",
+				"extern/libebml/src/src/platform/win32/WinIOCallback.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/ebml/c",
+			"paths" : 
+			[
+				"extern/libebml/src/ebml/c/libebml_t.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libebml/src/libebml.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "EbmlTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ebml::@89f156f7eb51027e3c2d",
+					"index" : 54
+				}
+			],
+			"paths" : 
+			[
+				"extern/libebml/src/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/EbmlTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/libebml/src/EbmlConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libebml/src/EbmlConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libebml/src",
+		"source" : "extern/libebml/src"
+	}
+}

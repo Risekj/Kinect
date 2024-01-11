@@ -1,0 +1,212 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libjpeg-turbo/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1329,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1347,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1358,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1360,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1379,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1383,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/turbojpeg.lib"
+			],
+			"targetId" : "turbojpeg::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 139,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/turbojpeg.dll"
+			],
+			"targetId" : "turbojpeg::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 139,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/tjbench.exe"
+			],
+			"targetId" : "tjbench::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 131,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/turbojpeg-static.lib"
+			],
+			"targetId" : "turbojpeg-static::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 140,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/turbojpeg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/jpeg-static.lib"
+			],
+			"targetId" : "jpeg-static::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 75,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rdjpgcom.exe"
+			],
+			"targetId" : "rdjpgcom::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 119,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/wrjpgcom.exe"
+			],
+			"targetId" : "wrjpgcom::@675ee08d9f8701c8a2d2",
+			"targetIndex" : 146,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/install",
+			"paths" : 
+			[
+				"extern/libjpeg-turbo/src/README.ijg",
+				"extern/libjpeg-turbo/src/README.md",
+				"extern/libjpeg-turbo/src/example.txt",
+				"extern/libjpeg-turbo/src/tjexample.c",
+				"extern/libjpeg-turbo/src/libjpeg.txt",
+				"extern/libjpeg-turbo/src/structure.txt",
+				"extern/libjpeg-turbo/src/usage.txt",
+				"extern/libjpeg-turbo/src/wizard.txt",
+				"extern/libjpeg-turbo/src/LICENSE.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/pkgscripts/libjpeg.pc",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/pkgscripts/libturbojpeg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/src/jconfig.h",
+				"extern/libjpeg-turbo/src/jerror.h",
+				"extern/libjpeg-turbo/src/jmorecfg.h",
+				"extern/libjpeg-turbo/src/jpeglib.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libjpeg-turbo/src",
+		"source" : "extern/libjpeg-turbo/src"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tests/UnitTests/dynlib_ut",
+		"source" : "tests/UnitTests/dynlib_ut"
+	}
+}

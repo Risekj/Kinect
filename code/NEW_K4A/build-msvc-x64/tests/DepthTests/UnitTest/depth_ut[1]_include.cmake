@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/DepthTests/UnitTest/depth_ut[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/DepthTests/UnitTest/depth_ut[1]_tests.cmake")
+else()
+  add_test(depth_ut_NOT_BUILT depth_ut_NOT_BUILT)
+endif()

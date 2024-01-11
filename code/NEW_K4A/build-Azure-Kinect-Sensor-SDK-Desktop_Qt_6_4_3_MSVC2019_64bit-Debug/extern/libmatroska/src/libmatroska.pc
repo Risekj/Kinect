@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/K4A
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name:             libmatroska
+Description:      Library for parsing EBML data structures
+Version:          1.4.9
+Requires.private: libebml
+Libs:             -L${libdir} -lmatroska
+Cflags:           -I${includedir}

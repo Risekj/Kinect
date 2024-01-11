@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/record/sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/record/sdk/k4arecord.lib"
+			],
+			"targetId" : "k4arecord::@1e13cb23637ae150b1a4",
+			"targetIndex" : 104,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/k4arecord.dll"
+			],
+			"targetId" : "k4arecord::@1e13cb23637ae150b1a4",
+			"targetIndex" : 104,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "lib/cmake/k4arecord",
+			"exportName" : "k4arecordTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "k4arecord::@1e13cb23637ae150b1a4",
+					"index" : 104
+				}
+			],
+			"paths" : 
+			[
+				"src/record/sdk/CMakeFiles/Export/f77e9bef9191e10d41edad545029e9c0/k4arecordTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "lib/cmake/k4arecord",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/record/sdk/k4arecordConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/record/sdk/k4arecordConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "include/k4arecord",
+			"paths" : 
+			[
+				"include/k4arecord/record.h",
+				"include/k4arecord/record.hpp",
+				"include/k4arecord/playback.h",
+				"include/k4arecord/playback.hpp",
+				"include/k4arecord/types.h",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/record/sdk/include/k4arecord/k4arecord_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/bin/k4arecord.pdb"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/record/sdk",
+		"source" : "src/record/sdk"
+	}
+}

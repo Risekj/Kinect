@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/multidevice/multidevice_ft[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/multidevice/multidevice_ft[1]_tests.cmake")
+else()
+  add_test(multidevice_ft_NOT_BUILT multidevice_ft_NOT_BUILT)
+endif()

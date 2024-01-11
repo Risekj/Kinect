@@ -1,0 +1,136 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/sdk/k4a.lib"
+			],
+			"targetId" : "k4a::@62dec1a11ee4a48508e1",
+			"targetIndex" : 78,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/k4a.dll"
+			],
+			"targetId" : "k4a::@62dec1a11ee4a48508e1",
+			"targetIndex" : 78,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "lib/cmake/k4a",
+			"exportName" : "k4aTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "k4a::@62dec1a11ee4a48508e1",
+					"index" : 78
+				}
+			],
+			"paths" : 
+			[
+				"src/sdk/CMakeFiles/Export/6740d1eaf4f62250afdeb04ccd3d73a9/k4aTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "lib/cmake/k4a",
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/k4aConfig.cmake",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/k4aConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "include/k4a",
+			"paths" : 
+			[
+				"include/k4a/k4a.h",
+				"include/k4a/k4a.hpp",
+				"include/k4a/k4atypes.h",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/include/k4a/k4aversion.h",
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/src/sdk/include/k4a/k4a_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/bin/k4a.pdb"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/sdk",
+		"source" : "src/sdk"
+	}
+}

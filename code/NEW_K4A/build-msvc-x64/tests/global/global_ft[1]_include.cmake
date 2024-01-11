@@ -1,0 +1,5 @@
+if(EXISTS "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/global/global_ft[1]_tests.cmake")
+  include("E:/NEW_K4A/Azure-Kinect-Sensor-SDK/build-msvc-x64/tests/global/global_ft[1]_tests.cmake")
+else()
+  add_test(global_ft_NOT_BUILT global_ft_NOT_BUILT)
+endif()

@@ -1,0 +1,154 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "extern/googletest/src/googlemock/gmock_main.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"cxx_library_with_type",
+			"cxx_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"extern/googletest/src/googletest/cmake/internal_utils.cmake",
+			"extern/googletest/src/googlemock/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR  /ZH:SHA_256 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"fragment" : "-GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -wd4702 -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/googletest/src/googlemock/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/googletest/src/googlemock"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/googletest/src/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/NEW_K4A/Azure-Kinect-Sensor-SDK/extern/googletest/src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "gmock_main::@e12f999eba48d23ea77a",
+	"name" : "gmock_main",
+	"nameOnDisk" : "gmock_main.lib",
+	"paths" : 
+	{
+		"build" : "extern/googletest/src/googlemock",
+		"source" : "extern/googletest/src/googlemock"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "extern/googletest/src/googletest/src/gtest-all.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "extern/googletest/src/googlemock/src/gmock-all.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "extern/googletest/src/googlemock/src/gmock_main.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

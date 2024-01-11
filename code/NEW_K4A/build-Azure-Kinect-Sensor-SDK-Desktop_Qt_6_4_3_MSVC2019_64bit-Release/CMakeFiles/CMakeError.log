@@ -1,0 +1,113 @@
+Performing C++ SOURCE FILE Test CXX_FLAG_CXX11 failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_55b3a && [1/2] Building CXX object CMakeFiles\cmTC_55b3a.dir\src.cxx.obj
+cl: 命令行 warning D9002 :忽略未知选项“-std=c++11”
+[2/2] Linking CXX executable cmTC_55b3a.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_d6964 && [1/2] Building C object CMakeFiles\cmTC_d6964.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_d6964.dir/src.c.obj 
+D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3 /ZH:SHA_256  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d6964.dir\src.c.obj /FdCMakeFiles\cmTC_d6964.dir\ /FS -c E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.c
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_d1312 && [1/2] Building C object CMakeFiles\cmTC_d1312.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_d1312.exe
+FAILED: cmTC_d1312.exe 
+cmd.exe /C "cd . && D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_d1312.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests  -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d1312.dir\CheckFunctionExists.c.obj  /out:cmTC_d1312.exe /implib:cmTC_d1312.lib /pdb:cmTC_d1312.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d1312.dir\CheckFunctionExists.c.obj /out:cmTC_d1312.exe /implib:cmTC_d1312.lib /pdb:cmTC_d1312.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_d1312.dir/intermediate.manifest CMakeFiles\cmTC_d1312.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_5493c && [1/2] Building C object CMakeFiles\cmTC_5493c.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_5493c.exe
+FAILED: cmTC_5493c.exe 
+cmd.exe /C "cd . && D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_5493c.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests  -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_5493c.dir\CheckFunctionExists.c.obj  /out:cmTC_5493c.exe /implib:cmTC_5493c.lib /pdb:cmTC_5493c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_5493c.dir\CheckFunctionExists.c.obj /out:cmTC_5493c.exe /implib:cmTC_5493c.lib /pdb:cmTC_5493c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_5493c.dir/intermediate.manifest CMakeFiles\cmTC_5493c.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
+ninja: build stopped: subcommand failed.
+
+
+
+Looking for a ASM_NASM compiler failed with the following output:
+-- The ASM_NASM compiler identification is unknown
+-- Didn't find assembler
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_ASM_NASM_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "ASM_NASM" or the CMake cache entry CMAKE_ASM_NASM_COMPILER to the
+  full path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeOutput.log".
+See also "E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/extern/libjpeg-turbo/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeError.log".
+
+Determining if the function jack_set_port_rename_callback exists in the jack failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_dae28 && [1/2] Building C object CMakeFiles\cmTC_dae28.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_dae28.exe
+FAILED: cmTC_dae28.exe 
+cmd.exe /C "cd . && D:\Software_installation\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_dae28.dir --rc=D:\WINDOW~1\10\bin\100226~1.0\x64\rc.exe --mt=D:\WINDOW~1\10\bin\100226~1.0\x64\mt.exe --manifests  -- D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_dae28.dir\CheckFunctionExists.c.obj  /out:cmTC_dae28.exe /implib:cmTC_dae28.lib /pdb:cmTC_dae28.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console -LIBPATH:E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\JACK_LIBRARY-NOTFOUND jack.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_dae28.dir\CheckFunctionExists.c.obj /out:cmTC_dae28.exe /implib:cmTC_dae28.lib /pdb:cmTC_dae28.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console -LIBPATH:E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\JACK_LIBRARY-NOTFOUND jack.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_dae28.dir/intermediate.manifest CMakeFiles\cmTC_dae28.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“jack.lib”
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: E:/NEW_K4A/build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software_installation/QT/Tools/Ninja/ninja.exe cmTC_2563d && [1/2] Building CXX object CMakeFiles\cmTC_2563d.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_2563d.dir/src.cxx.obj 
+D:\Software_installation\visualstudio2022\community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /DWIN32 /D_WINDOWS /GR /EHsc /ZH:SHA_256  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2563d.dir\src.cxx.obj /FdCMakeFiles\cmTC_2563d.dir\ /FS -c E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: “__deprecated__”: 未声明的标识符
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(1): error C2062: 意外的类型“int” 
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\NEW_K4A\build-Azure-Kinect-Sensor-SDK-Desktop_Qt_6_4_3_MSVC2019_64bit-Release\CMakeFiles\CMakeTmp\src.cxx(2): error C3861: “somefunc”: 找不到标识符
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
